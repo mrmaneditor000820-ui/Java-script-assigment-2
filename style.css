@@ -40,7 +40,7 @@ a {
     font-size: 18px;
 }
 
-.contactbtn {
+/* .contactbtn {
     padding: 10px 20px;
     background-color: rgb(69, 48, 4);
     color: white;
@@ -54,7 +54,7 @@ a {
 .contactbtn:hover {
     background-color: black;
     transition: 0.3s;
-}
+} */
 
 .logo img {}
 
@@ -76,4 +76,5 @@ a {
 .hero img {
     width: 100%;
     height: auto;
+    margin-top: 20px;
 }
