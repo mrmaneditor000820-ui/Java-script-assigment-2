@@ -34,3 +34,17 @@ a{
     font-weight: bold;
     font-size: 18px;
 }
+.contactbtn{
+    padding: 10px 20px;
+    background-color: rgb(69, 48, 4);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+.contactbtn:hover{
+    background-color: black;
+    transition: 0.3s;
+}
