@@ -123,8 +123,31 @@ a {
 .container1{
     margin-top: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #002D69;
     border: 2px solid black;
     width: 50%;
-    padding: 50px;
+    padding: 80px;
+    background-color: #002D69;
+}
+.container1 h1{
+    background-color: #002D69;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+.container1 p{
+    background-color: #002D69;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+.morebtn{
+    background-color: white;
+    color:#0577fa;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
 }
