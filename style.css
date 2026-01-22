@@ -68,7 +68,7 @@ a {
 /* } */
 .hero2{
     margin-top: 60px;
-    margin-left: 50px;
+    margin-left: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 28px;
     font-weight: bold;
@@ -90,10 +90,32 @@ a {
     margin: 10px 0;
     border-radius:10px ;
     border: #002D69 solid 2px;
+    padding: 5px;
 
 }
 .card img{
     width: 100%;
     height: auto;
     border-radius: 10px;
+}
+.addbtn{
+    background-color: #0577fa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.addbtn:hover{
+    background-color: #002D69;
+    transition: all ease-in-out 0.5s;
+}
+.hero2wrap{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
