@@ -124,7 +124,7 @@ a {
     margin-top: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 2px solid black;
-    width: 50%;
+    width:750px;
     padding: 80px;
     background-color: #002D69;
 }
@@ -151,3 +151,17 @@ a {
     font-size: 16px;
     margin-top: 10px;
 }
+.hero3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.container2 img{
+    width: 29em;
+    height: auto;
+    margin-top: 50px;
+}
+
