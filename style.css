@@ -269,3 +269,10 @@ marquee img{
     margin-top: 30px;
     margin-bottom: 50px;
 }
+.hero6{
+    color: #002D69;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
