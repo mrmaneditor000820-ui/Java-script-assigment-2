@@ -37,21 +37,7 @@ a {
     font-size: 18px;
 }
 
-/* .contactbtn {
-    padding: 10px 20px;
-    background-color: rgb(69, 48, 4);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 18px;
-}
 
-.contactbtn:hover {
-    background-color: black;
-    transition: 0.3s;
-} */
 
 
 
@@ -74,7 +60,6 @@ a {
 .hero img {
     width: 100%;
     height: 100%;
-    margin-top: 20px;
 
 }
 .hero2{
