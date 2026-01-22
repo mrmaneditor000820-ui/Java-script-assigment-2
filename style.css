@@ -164,4 +164,15 @@ a {
     height: auto;
     margin-top: 50px;
 }
-
+.hero4{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+    font-weight: bold;
+}
+marquee img{
+    margin-top: 20px;
+    height: 300px;
+    margin: 0 50px;
+    margin-top: 50px;
+}
