@@ -293,5 +293,15 @@ marquee img{
 .morebtn1{
     text-align: center;
     margin-top: 20px;
-    
+
+}
+footer{
+    background-color: #2e8db6;
+    color: rgb(77, 48, 194);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 50px;
+    display:flex;
 }
