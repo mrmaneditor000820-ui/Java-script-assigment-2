@@ -211,3 +211,61 @@ marquee img{
     margin-top: 50px;
     margin-bottom: 20px;
 }
+.servicecard{
+    border: 2px solid rgb(183, 177, 177);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    color:rgb(68, 10, 100);
+    width: 400px;
+}
+.servicecard img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.servicecard2{
+    border: 2px solid rgb(183, 177, 177);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    color:rgb(68, 10, 100);
+    width: 400px;
+}
+.servicecard2 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.servicecard3{
+    border: 2px solid rgb(183, 177, 177);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    color:rgb(68, 10, 100);
+    width: 400px;
+}
+.servicecard3 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.servicecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
