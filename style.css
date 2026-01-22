@@ -299,7 +299,7 @@ footer{
     background-color: #2e8db6;
     color: rgb(77, 48, 194);
     text-align: center;
-    padding: 20px;
+    padding: 100px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     margin-top: 50px;
@@ -330,4 +330,21 @@ footer{
    font-size: 16px;
    margin-top: 10px;
    background-color: #002D69;
+}
+.carticon{
+    background-color: #2e8db6;
+    color: rgb(15, 14, 14);
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}       
+.carticon p,h3 {
+    background-color: #2e8db6;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.footerbox1{
+     margin: 20px;
+
 }
