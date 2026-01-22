@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+    background-color: #c5d2ce;
+}
+html, body {
+    overflow-x: hidden;
 }
 
 .container {
@@ -55,7 +58,7 @@ a {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    color:#0D5EBA;
+    color:#0577fa;
     margin: 0px 50px;
 }
 /* .hero img {
@@ -87,4 +90,10 @@ a {
     margin: 10px 0;
     border-radius:10px ;
     border: #002D69 solid 2px;
+
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
