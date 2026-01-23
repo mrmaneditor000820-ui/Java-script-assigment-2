@@ -348,5 +348,26 @@ footer{
     justify-content: start;
 }
 .copyrightsection{
-    padding: 40px;
+    padding: 10px;
+    background-color: #2e8db6;
+    color: rgb(13, 13, 13);
+}
+.copyrightsection p{
+    background-color: #2e8db6;
+    font-size: 14px;
+    text-align: center;
+    font-size: large;
+}
+.footer3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.socialicons{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    color: #002D69;
+    background-color: #2e8db6;
 }
