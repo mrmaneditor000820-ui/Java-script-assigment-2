@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,193 +8,205 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
 </head>
 
 <body>
+    <header>
+        <div class="logo">BAYSIDE FINE JEWELRY</div>
 
-    <header class="container">
-        <h1 class="maintitle">BAYSIDE FINE JEWELRY</h1>
-        <nav class="navbar">
-            <ul id="MenuItems">
-                <li><a href="">Home</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+        <div class="hamburger" onclick="toggleMenu()">
+            ☰
+        </div>
+
+        <nav>
+            <ul id="menu" onclick="toggleMenu()">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#products">Servics</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="./Contact/contact.html">Contact</a></li>
+                <a class="bg-black" href="#"><i class="fas fa-shopping-cart"></i></a>
             </ul>
-            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+
         </nav>
     </header>
 
     <section class="hero">
-        <img src="Hero.png" alt="" onmouseover="this.src='image (1).png'"onmouseout="this.src='Hero.png'">
+        <img src="Hero.png" alt="" onmouseover="this.src='image (1).png'" onmouseout="this.src='Hero.png'">
     </section>
 
     <section class="hero2">
         <h1>SHOP BY JEWELRY TYPE</h1>
         <div class="hero2wrap ">
-        <div class="card" style="width: 20rem;">
-            <img src="11.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">EARRINGS</h5>
-                <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
-                <button class="addbtn"id="addbtn" onclick="add()">ADD TO CARD</button>
+            <div class="card" style="width: 20rem;">
+                <img src="11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">EARRINGS</h5>
+                    <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
+                    <button class="addbtn" id="addbtn" onclick="add()">ADD TO CARD</button>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 20rem;">
-            <img src="22.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">EARRINGS</h5>
-                <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
-                <button class="addbtn" id="addbtn" onclick="add()" >ADD TO CARD</button>
+            <div class="card" style="width: 20rem;">
+                <img src="22.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">EARRINGS</h5>
+                    <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
+                    <button class="addbtn" id="addbtn" onclick="add()">ADD TO CARD</button>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 20rem;">
-            <img src="33.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">EARRINGS</h5>
-                <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
-                <button class="addbtn"id="addbtn" onclick="add()">ADD TO CARD</button>
+            <div class="card" style="width: 20rem;">
+                <img src="33.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">EARRINGS</h5>
+                    <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
+                    <button class="addbtn" id="addbtn" onclick="add()">ADD TO CARD</button>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 20rem;">
-            <img src="Item 4.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">EARRINGS</h5>
-                <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
-                <button class="addbtn"id="addbtn" onclick="add()">ADD TO CARD</button>
+            <div class="card" style="width: 20rem;">
+                <img src="Item 4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">EARRINGS</h5>
+                    <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
+                    <button class="addbtn" id="addbtn" onclick="add()">ADD TO CARD</button>
+                </div>
             </div>
-        </div>
-         <div class="card" style="width: 20rem;">
-            <img src="netlex png.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">EARRINGS</h5>
-                <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
-                <button class="addbtn"id="addbtn" onclick="add()">ADD TO CARD</button>
+            <div class="card" style="width: 20rem;">
+                <img src="netlex png.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">EARRINGS</h5>
+                    <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
+                    <button class="addbtn" id="addbtn" onclick="add()">ADD TO CARD</button>
+                </div>
             </div>
-        </div> <div class="card" style="width: 20rem;">
-            <img src="images.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">EARRINGS</h5>
-                <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
-                <button class="addbtn"id="addbtn" onclick="add()">ADD TO CARD</button>
+            <div class="card" style="width: 20rem;">
+                <img src="images.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">EARRINGS</h5>
+                    <p class="card-text">Earrings are a type of jewelry worn on the ears.</p>
+                    <button class="addbtn" id="addbtn" onclick="add()">ADD TO CARD</button>
+                </div>
             </div>
-        </div>
         </div>
     </section>
-<section class="hero3">
- <div class="container1">
-    <h1>HAND CRAFTED <br> FIND PIECES.</h1>
-    <P>We also firmly believed that our customers<br> deserved more choices, straightforward<br> information and legendary service.</P>
-    <button class="morebtn">LEARN MORE </button>
- </div>
- <div class="container2">
-    <img src="Image.png" alt="">
- </div>
-</section>
-
-<section class="hero4">
-    <h1>OUR LETEST JEWELRY</h1>
-    <marquee behavior="" direction="left" scrollamount="10">
-        <img src="images (1).jpeg" alt="">
-        <img src="images (2).jpeg" alt="">
-        <img src="images (3).jpeg" alt="">
-        <img src="Item 1.png" alt="">
-        <img src="Item 2.png" alt="">
-        <img src="Item 3.png" alt="">
-        <img src="Item 4.png" alt="">
-    </marquee>
-</section>
-
-<section class="hero5">
-    <h1>CUSTOMERS REVIEWS</h1>
-    <div class="reviewcontainer">
-    <div class="reviewcard">
-        <img src="“.png" alt="">
-        <p>Great variety of cuts and amazing customer service.ring and helped me to personalize it a little more.</p>
-        <h3>- Nico Jones</h3>
-    </div>
-      <div class="reviewcard">
-        <img src="“.png" alt="">
-        <p>What an amazing shopping experience! I tried other jewelers and didn't find anything I liked. Thank you so much.</p>
-        <h3>-Tracy Wilils</h3>
-    </div>
-      <div class="reviewcard">
-        <img src="“.png" alt="">
-        <p>Great quality, and showed they can work through a problem and maintain excellent customer service!!</p>
-        <h3>- Susana Santos</h3>
-    </div>
-    </div>
-</section>
-
-<section class="hero6">
-    <h1>OUR SERVICES</h1>
-    <div class="servicecontainer">
-        <div class="servicecard">
-            <img src="1.png" alt="">
-            <h3>JEWELRY REPAIR</h3>
+    <section class="hero3">
+        <div class="container1">
+            <h1>HAND CRAFTED <br> FIND PIECES.</h1>
+            <P>We also firmly believed that our customers<br> deserved more choices, straightforward<br> information and
+                legendary service.</P>
+            <button class="morebtn">LEARN MORE </button>
         </div>
-        <div class="servicecard2">
-            <img src="2.png" alt="">
-            <h3>JEWELRY CLEANING</h3>
+        <div class="container2">
+            <img src="Image.png" alt="">
         </div>
-        <div class="servicecard3">
-            <img src="3.png" alt="">
-            <h3>RING SIZING</h3>
+    </section>
+
+    <section class="hero4">
+        <h1>OUR LETEST JEWELRY</h1>
+        <marquee behavior="" direction="left" scrollamount="10">
+            <img src="images (1).jpeg" alt="">
+            <img src="images (2).jpeg" alt="">
+            <img src="images (3).jpeg" alt="">
+            <img src="Item 1.png" alt="">
+            <img src="Item 2.png" alt="">
+            <img src="Item 3.png" alt="">
+            <img src="Item 4.png" alt="">
+        </marquee>
+    </section>
+
+    <section class="hero5">
+        <h1>CUSTOMERS REVIEWS</h1>
+        <div class="reviewcontainer">
+            <div class="reviewcard">
+                <img src="“.png" alt="">
+                <p>Great variety of cuts and amazing customer service.ring and helped me to personalize it a little
+                    more.</p>
+                <h3>- Nico Jones</h3>
+            </div>
+            <div class="reviewcard">
+                <img src="“.png" alt="">
+                <p>What an amazing shopping experience! I tried other jewelers and didn't find anything I liked. Thank
+                    you so much.</p>
+                <h3>-Tracy Wilils</h3>
+            </div>
+            <div class="reviewcard">
+                <img src="“.png" alt="">
+                <p>Great quality, and showed they can work through a problem and maintain excellent customer service!!
+                </p>
+                <h3>- Susana Santos</h3>
+            </div>
         </div>
-    </div>
-</section>
-<div class="morebtn1">
-<button class="morebtn2">
-    LEARN MORE
-</button>
-</div>
+    </section>
 
-<footer>
-     <div class="footersection1">
-    <img src="Rectangle 31.png" alt="">
- </div>
-  <div class="footersection2">
-    <h1>STAY IN TOUCH ?</h1>
-    <P>Subscribe to get special offers, free giveaways<br>, and once-in-a-lifetime deals.</P>
-    <button class="morebtn4">SUBSCRIBE</button>
- </div>
-</footer>
-<footer class="footer2">
-<div class="carticon">
-    <div class="footerbox1">
-        <h4>Product</h4>
-        <p>Privacy Policy</p>
-        <p>Term of Service</p>
-        <p>FAQ</p>
+    <section class="hero6">
+        <h1>OUR SERVICES</h1>
+        <div class="servicecontainer">
+            <div class="servicecard">
+                <img src="1.png" alt="">
+                <h3>JEWELRY REPAIR</h3>
+            </div>
+            <div class="servicecard2">
+                <img src="2.png" alt="">
+                <h3>JEWELRY CLEANING</h3>
+            </div>
+            <div class="servicecard3">
+                <img src="3.png" alt="">
+                <h3>RING SIZING</h3>
+            </div>
+        </div>
+    </section>
+    <div class="morebtn1">
+        <button class="morebtn2">
+            LEARN MORE
+        </button>
+    </div>
 
-    </div>
-</div>
-<div class="carticon">
-    <div class="footerbox1">
-        <h4>Resources</h4>
-        <p>Documentation</p>
-        <p>Case Studies</p>
-    </div>
-</div><div class="carticon">
-    <div class="footerbox1">
-        <h4>Company</h4>
-        <p>About Us</p>
-        <p>Contact Us</p>
-    </div>
-</div>
-</footer>
-<footer class="footer3">
-<div class="copyrightsection">
-    <p class="copyright">&copy;Blue Diamond Jewelry 2021</p>
-</div>
-<div class="socialicons">
-    <i class="fa-brands fa-facebook"></i>
-    <i class="fa-brands fa-instagram"></i>
-    <i class="fa-brands fa-twitter"></i>    
+    <footer>
+        <div class="footersection1">
+            <img src="Rectangle 31.png" alt="">
+        </div>
+        <div class="footersection2">
+            <h1>STAY IN TOUCH ?</h1>
+            <P>Subscribe to get special offers, free giveaways<br>, and once-in-a-lifetime deals.</P>
+            <button class="morebtn4">SUBSCRIBE</button>
+        </div>
+    </footer>
+    <footer class="footer2">
+        <div class="carticon">
+            <div class="footerbox1">
+                <h4>Product</h4>
+                <p>Privacy Policy</p>
+                <p>Term of Service</p>
+                <p>FAQ</p>
 
-</div>
-</footer>
+            </div>
+        </div>
+        <div class="carticon">
+            <div class="footerbox1">
+                <h4>Resources</h4>
+                <p>Documentation</p>
+                <p>Case Studies</p>
+            </div>
+        </div>
+        <div class="carticon">
+            <div class="footerbox1">
+                <h4>Company</h4>
+                <p>About Us</p>
+                <p>Contact Us</p>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer3">
+        <div class="copyrightsection">
+            <p class="copyright">&copy;Blue Diamond Jewelry 2021</p>
+        </div>
+        <div class="socialicons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+
+        </div>
+    </footer>
     <script src="index.js"></script>
 </body>
 

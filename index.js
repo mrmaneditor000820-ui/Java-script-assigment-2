@@ -8,3 +8,6 @@ function add(){
 function image(){
     document.querySelector('.hero img').src = "Hero2.png";
 }
+function toggleMenu() {
+ document.getElementById("menu").classList.toggle("show");
+}
